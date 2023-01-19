@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-    int A,B,no_result=0,total_vote,i,choice;
+    int A=0,B=0,no_result=0,total_vote,i,choice;
     printf("How many vote want to count:");
     scanf("%d",&total_vote);
     for(i=1;i<=total_vote;i++)
